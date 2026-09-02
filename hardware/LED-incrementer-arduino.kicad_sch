@@ -1,0 +1,2039 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "bdea5ef7-4e01-4f29-aa87-c20091d7064a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "PCM_arduino-library:Arduino_Uno_R4_WiFi_Shield"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "A"
+				(at 0 43.18 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "Arduino_Uno_R4_WiFi_Shield"
+				(at 0 40.64 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "PCM_arduino-library:Arduino_Uno_R4_WiFi_Shield"
+				(at 0 -45.72 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" "https://docs.arduino.cc/hardware/uno-r4-wifi"
+				(at 0 -41.91 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "Shield for Arduino Uno R4 WiFi"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Arduino MPU Shield"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Arduino_Uno_R4_WiFi_Shield"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Arduino_Uno_R4_WiFi_Shield_0_0"
+				(rectangle
+					(start -17.78 38.1)
+					(end 17.78 -38.1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 25.4) (xy -11.43 25.4) (xy -11.43 22.86) (xy -12.7 22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -12.7 -12.7)
+					(end -5.08 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.43 24.13) (xy -7.62 24.13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -11.43 -33.02)
+					(end -5.08 -33.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 33.02) (xy -7.62 33.02) (xy -7.62 30.48) (xy -10.16 30.48)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -10.16 -7.62)
+					(end -8.89 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -8.89 -2.54)
+					(end -11.43 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -8.89 -5.08)
+					(end -6.35 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -8.89 -7.62)
+					(end -8.89 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 31.75) (xy -6.35 31.75)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 15.24) (xy -5.08 17.78) (xy -13.97 17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 2.54) (xy -11.43 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -12.7) (xy -5.08 -19.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -26.67) (xy -5.08 -33.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 22.86) (xy 5.08 33.02) (xy 13.97 33.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 15.24) (xy 5.08 5.08) (xy 12.7 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -3.81)
+					(end 5.08 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -12.7)
+					(end 5.08 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -12.7)
+					(end 7.62 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -17.78)
+					(end 8.89 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -21.59)
+					(end 5.08 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -30.48)
+					(end 5.08 -26.67)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -30.48)
+					(end 11.43 -30.48)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 0)
+					(end 5.08 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "RTC"
+					(at -7.62 -15.24 900)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "Serial"
+					(at -5.08 31.75 900)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "I²C"
+					(at -5.08 24.13 900)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "Analog"
+					(at -5.08 10.16 900)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "Misc."
+					(at -5.08 -5.08 900)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "Power"
+					(at -5.08 -22.86 900)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "SPI"
+					(at 5.08 -6.35 900)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "ESP"
+					(at 5.08 -24.13 900)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(symbol "Arduino_Uno_R4_WiFi_Shield_0_1"
+				(polyline
+					(pts
+						(xy -11.43 -17.78) (xy -7.62 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Arduino_Uno_R4_WiFi_Shield_1_0"
+				(text "GPIO"
+					(at 5.08 19.05 900)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(symbol "Arduino_Uno_R4_WiFi_Shield_1_1"
+				(pin power_out line
+					(at -25.4 -25.4 0)
+					(length 7.62)
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -25.4 -22.86 0)
+					(length 7.62)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5V1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -10.16 180)
+					(length 7.62)
+					(name "SPI_5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5V2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 5.08 0)
+					(length 7.62)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 7.62 0)
+					(length 7.62)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 10.16 0)
+					(length 7.62)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 12.7 0)
+					(length 7.62)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 15.24 0)
+					(length 7.62)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 17.78 0)
+					(length 7.62)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 2.54 0)
+					(length 7.62)
+					(name "AREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input input_low
+					(at -25.4 -2.54 0)
+					(length 7.62)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 33.02 0)
+					(length 7.62)
+					(name "D0/RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 30.48 0)
+					(length 7.62)
+					(name "D1/TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 33.02 180)
+					(length 7.62)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 30.48 180)
+					(length 7.62)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 27.94 180)
+					(length 7.62)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 25.4 180)
+					(length 7.62)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 22.86 180)
+					(length 7.62)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 20.32 180)
+					(length 7.62)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 17.78 180)
+					(length 7.62)
+					(name "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 15.24 180)
+					(length 7.62)
+					(name "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 12.7 180)
+					(length 7.62)
+					(name "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 10.16 180)
+					(length 7.62)
+					(name "D11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 7.62 180)
+					(length 7.62)
+					(name "D12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 5.08 180)
+					(length 7.62)
+					(name "D13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -17.78 180)
+					(length 7.62)
+					(name "ESP_42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "ESP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -20.32 180)
+					(length 7.62)
+					(name "ESP_41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "ESP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -22.86 180)
+					(length 7.62)
+					(name "ESP_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "ESP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -25.4 180)
+					(length 7.62)
+					(name "DWNLD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "ESP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -27.94 180)
+					(length 7.62)
+					(name "ESP_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "ESP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -25.4 -27.94 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -25.4 -30.48 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -25.4 -33.02 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -12.7 180)
+					(length 7.62)
+					(name "SPI_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -30.48 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -25.4 -15.24 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -25.4 -5.08 0)
+					(length 7.62)
+					(name "IOREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "IORF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 0 180)
+					(length 7.62)
+					(name "SPI_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 -2.54 180)
+					(length 7.62)
+					(name "SPI_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input input_low
+					(at -25.4 -12.7 0)
+					(length 7.62)
+					(name "OFF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "OFF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector input_low
+					(at -25.4 -7.62 0)
+					(length 7.62)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RST1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector input_low
+					(at 25.4 -7.62 180)
+					(length 7.62)
+					(name "SPI_RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RST2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 25.4 -5.08 180)
+					(length 7.62)
+					(name "SPI_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional clock
+					(at -25.4 25.4 0)
+					(length 7.62)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 22.86 0)
+					(length 7.62)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -25.4 -17.78 0)
+					(length 7.62)
+					(name "VRTC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -25.4 -20.32 0)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 205.74 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1467873d-a3a6-40ec-88cf-dc3f4440934d")
+		(property "Reference" "SW2"
+			(at 205.74 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 205.74 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 205.74 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cdf04023-a379-4813-a30d-eef33a6f8050")
+		)
+		(pin "2"
+			(uuid "7948ff29-b7c8-4969-b887-ed08a9fba815")
+		)
+		(instances
+			(project "LED-incrementer-arduino"
+				(path "/bdea5ef7-4e01-4f29-aa87-c20091d7064a"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 182.88 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a1cb421-f3a7-4f32-b000-2d4893318993")
+		(property "Reference" "SW1"
+			(at 182.88 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 182.88 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 182.88 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a07ec5de-d8cb-46bd-bfeb-8727d6a7e005")
+		)
+		(pin "2"
+			(uuid "5674b8e1-0f90-4d89-8bd3-2e4860cf74b8")
+		)
+		(instances
+			(project "LED-incrementer-arduino"
+				(path "/bdea5ef7-4e01-4f29-aa87-c20091d7064a"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_arduino-library:Arduino_Uno_R4_WiFi_Shield")
+		(at 139.7 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb5e8729-b358-40ed-95d4-b7d10cb3e396")
+		(property "Reference" "A1"
+			(at 139.7 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Arduino_Uno_R4_WiFi_Shield"
+			(at 139.7 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "PCM_arduino-library:Arduino_Uno_R4_WiFi_Shield"
+			(at 139.7 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" "https://docs.arduino.cc/hardware/uno-r4-wifi"
+			(at 139.7 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Shield for Arduino Uno R4 WiFi"
+			(at 139.7 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "D9"
+			(uuid "6c471a68-a9f1-4ed1-89da-a88f56b53667")
+		)
+		(pin "D5"
+			(uuid "6900f631-ddca-455d-bf84-6cdbdf8f38c4")
+		)
+		(pin "D12"
+			(uuid "9e64755a-5df2-4c16-9fed-a14751413385")
+		)
+		(pin "5V1"
+			(uuid "56f17a2e-fef1-43b2-b68e-421e77b01006")
+		)
+		(pin "5V2"
+			(uuid "bd76cf1f-5ef6-4be0-9549-b202faa9a923")
+		)
+		(pin "A0"
+			(uuid "3d9225f4-3c23-436d-9de1-e36ea4fb0d7e")
+		)
+		(pin "A5"
+			(uuid "f5eafa3d-131b-438e-aeda-49713cb280e6")
+		)
+		(pin "AREF"
+			(uuid "d4964733-cc69-4f49-8eb3-395f7ba94054")
+		)
+		(pin "3V3"
+			(uuid "93ff2047-14bb-453d-b540-a06aecd2ec4c")
+		)
+		(pin "BOOT"
+			(uuid "702e8eb3-ae9e-47f4-91d2-2a1f2a1f03bd")
+		)
+		(pin "D1"
+			(uuid "5c23cb2d-1195-414a-a614-c0dc73f71b10")
+		)
+		(pin "D3"
+			(uuid "e1386d32-40e8-41d6-a4a3-9600ab1ef58d")
+		)
+		(pin "D4"
+			(uuid "f585c1ff-4431-4929-aaa2-36e336f6bce5")
+		)
+		(pin "D7"
+			(uuid "01dd0940-7545-4cd6-8153-28d8d1b10471")
+		)
+		(pin "A1"
+			(uuid "44b77aa5-0854-46bc-9a6b-c02b279c6288")
+		)
+		(pin "A4"
+			(uuid "63b217c6-8e5c-416c-9913-9db5f124a971")
+		)
+		(pin "A2"
+			(uuid "c9ab0200-e46f-4f84-b98c-cd7445207a6f")
+		)
+		(pin "A3"
+			(uuid "70817331-fe28-4d52-a03e-392f1a3fd308")
+		)
+		(pin "D2"
+			(uuid "c8789855-f52c-4c1a-afc6-b940327c4e46")
+		)
+		(pin "D0"
+			(uuid "40e096c7-38a8-4e55-a101-35a0d5dfb508")
+		)
+		(pin "D6"
+			(uuid "f5ddade3-406c-4c05-a8a0-34b7b8d9c4f5")
+		)
+		(pin "D8"
+			(uuid "7aa19af9-e25d-4fe1-8e0f-39605bb46f3d")
+		)
+		(pin "D10"
+			(uuid "29a9ffa8-4204-41be-91a9-0236177eb25b")
+		)
+		(pin "D11"
+			(uuid "10b942d0-2357-4645-af57-d028b35dfd6a")
+		)
+		(pin "ESP5"
+			(uuid "d5a56b62-fa48-4abc-b29d-eeb80aa352be")
+		)
+		(pin "VBAT"
+			(uuid "6259c51c-d2ed-4c97-b721-249b7daea308")
+		)
+		(pin "ESP2"
+			(uuid "751ff6ec-7d72-439e-b48a-05704ae8f5df")
+		)
+		(pin "ESP1"
+			(uuid "0a517243-c71d-43f3-a108-b9162e611a5f")
+		)
+		(pin "IORF"
+			(uuid "35cdcc9c-e243-489a-8abb-6484ecc85aa2")
+		)
+		(pin "VIN"
+			(uuid "8a32ec03-45d3-49fb-9863-d027d36771d1")
+		)
+		(pin "GND2"
+			(uuid "a0a30d34-e1d3-4084-a076-846b978486a5")
+		)
+		(pin "ESP3"
+			(uuid "19b5dbeb-3afd-4f7d-ab11-7a9909aac843")
+		)
+		(pin "OFF"
+			(uuid "a5cc1e2d-7013-4ddd-831f-fa90873e4026")
+		)
+		(pin "RST1"
+			(uuid "38c3dfb0-55f5-4274-b80a-ba16e12efcb9")
+		)
+		(pin "GND4"
+			(uuid "34591462-22aa-45fc-87f0-277a5b1daf9a")
+		)
+		(pin "RST2"
+			(uuid "17b808a1-61ad-4f19-873f-f2f97e46f67c")
+		)
+		(pin "SCK"
+			(uuid "25490ddc-d2f9-4889-ab34-767ab4291136")
+		)
+		(pin "SDA"
+			(uuid "8bd40302-665a-4f8b-a632-3c01102076f4")
+		)
+		(pin "GND1"
+			(uuid "52df3156-b92a-41c6-88a7-8753eeab8644")
+		)
+		(pin "ESP4"
+			(uuid "85e5c7b1-d26c-4c97-893c-2701455a1ab9")
+		)
+		(pin "D13"
+			(uuid "c0eaccd8-74b0-4500-8252-af2c24ffc390")
+		)
+		(pin "GND5"
+			(uuid "b0057259-48ad-4bf2-8aa9-1382c1718aab")
+		)
+		(pin "MISO"
+			(uuid "b712de6d-e7cb-4948-a7ef-12f354b7f0bd")
+		)
+		(pin "GND4"
+			(uuid "73eab305-a860-42cb-9047-679268046be4")
+		)
+		(pin "GND3"
+			(uuid "9a3507aa-a61b-49e1-8ea9-6b32f6584caf")
+		)
+		(pin "MOSI"
+			(uuid "e6d13296-1140-4aea-a445-c688ab997b4f")
+		)
+		(pin "SCL"
+			(uuid "3c81cfae-450a-4f4c-a66b-74f8db828d2e")
+		)
+		(instances
+			(project "LED-incrementer-arduino"
+				(path "/bdea5ef7-4e01-4f29-aa87-c20091d7064a"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "FE_drawing_template.kicad_wks")
+			(type worksheet)
+			(data |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
+				l1siSFuRhdv9/5m+XiBqOZL9sO7t3B/jcNYP|
+			)
+			(checksum "82F0D74266BD49689C2A9E73912E2770")
+		)
+	)
+)

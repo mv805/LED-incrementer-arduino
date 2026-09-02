@@ -1,0 +1,32 @@
+# PlatformIO
+.pio/
+.vscode/
+build/
+debug/
+*.elf
+*.bin
+*.hex
+*.uf2
+
+# KiCad generated/temp files
+*.bak
+*.log
+*.tmp
+*.cache
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_prl
+fp-info-cache
+*-backups/
+*.000
+*.net
+*.dsn
+*.ses
+*.pro
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
