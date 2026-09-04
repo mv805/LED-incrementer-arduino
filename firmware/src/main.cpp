@@ -11,7 +11,6 @@ ArduinoLEDMatrix matrix;
 
 unsigned long lastToggle = 0;      // Last time the main LED changed state
 bool ledState = false;             // Current state of the main LED (ON/OFF)
-bool incButtonPushed = false;      // Old flag used to avoid repeated presses
 bool lastButtonState = HIGH;       // Previous state of the button (HIGH = not pressed)
 
 // Timing controls for the blink speed.
@@ -77,7 +76,7 @@ void loop() {
         flashInterval -= FLASH_INCREASE_INCREMENT;
       } else {
         // If the interval would go below the minimum, reset to the maximum.
-        // This creates the wrap-around behavior you want.
+        // This creates the wrap-around behavior.
         flashInterval = MAX_FLASH_INTERVAL;
       }
 
