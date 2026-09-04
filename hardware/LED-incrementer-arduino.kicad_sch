@@ -2011,6 +2011,178 @@
 		(color 0 0 0 0)
 		(uuid "94374b3b-d269-4eca-9440-123561df2846")
 	)
+	(no_connect
+		(at 114.3 83.82)
+		(uuid "0559138b-5b41-46ec-9aa6-c8c3b8241f58")
+	)
+	(no_connect
+		(at 114.3 76.2)
+		(uuid "121f8ddb-3c75-48aa-8955-8bde89714ea4")
+	)
+	(no_connect
+		(at 114.3 60.96)
+		(uuid "16ee986f-b7d2-42e2-a978-e0e81ef69d2f")
+	)
+	(no_connect
+		(at 165.1 111.76)
+		(uuid "1a5f2cc1-3930-46fe-af72-8c36e6ead8b4")
+	)
+	(no_connect
+		(at 114.3 99.06)
+		(uuid "2313d271-eadf-41d6-9d54-c542f147a97d")
+	)
+	(no_connect
+		(at 114.3 116.84)
+		(uuid "2367f6e3-a5bf-4105-9007-4119cd320a52")
+	)
+	(no_connect
+		(at 114.3 88.9)
+		(uuid "23be5bb2-b72d-4df9-8ce5-27ef781d0490")
+	)
+	(no_connect
+		(at 165.1 93.98)
+		(uuid "2827364a-3cab-4ab1-9a7a-7da8d9f059f1")
+	)
+	(no_connect
+		(at 165.1 99.06)
+		(uuid "2e131e21-9e11-4cea-b01d-3342eb2b82d7")
+	)
+	(no_connect
+		(at 165.1 55.88)
+		(uuid "2f627fed-87cf-4508-ac38-d0fb00e36f53")
+	)
+	(no_connect
+		(at 114.3 104.14)
+		(uuid "382fd751-dfef-492a-ab86-290fef1cb1a8")
+	)
+	(no_connect
+		(at 165.1 78.74)
+		(uuid "3840e8aa-70c8-4719-9a7e-a97d7aee3383")
+	)
+	(no_connect
+		(at 114.3 106.68)
+		(uuid "41b8a65b-cc07-4574-af5a-4125ea3023bd")
+	)
+	(no_connect
+		(at 114.3 73.66)
+		(uuid "463d0f3a-8a63-4adb-b378-8194d796bf1a")
+	)
+	(no_connect
+		(at 165.1 116.84)
+		(uuid "479c2bab-39ab-41a1-abcd-8fcf12063310")
+	)
+	(no_connect
+		(at 114.3 63.5)
+		(uuid "5bad55a7-5a81-4531-b31a-d365b7a86c95")
+	)
+	(no_connect
+		(at 114.3 111.76)
+		(uuid "5fbc1e21-85b5-4a2d-8de0-449001786f96")
+	)
+	(no_connect
+		(at 165.1 66.04)
+		(uuid "6c1235dd-6bda-4370-975c-fc7b8200b8e0")
+	)
+	(no_connect
+		(at 114.3 71.12)
+		(uuid "6fea54c9-b1e8-485a-af2f-b0321267fe94")
+	)
+	(no_connect
+		(at 165.1 88.9)
+		(uuid "71f45a0a-7b54-42e9-a846-a5aa1cf1d900")
+	)
+	(no_connect
+		(at 165.1 76.2)
+		(uuid "73f697b9-3a52-44bd-96f5-861187751b23")
+	)
+	(no_connect
+		(at 165.1 104.14)
+		(uuid "83888618-5644-49c9-bfc8-2bd6e9abae03")
+	)
+	(no_connect
+		(at 114.3 93.98)
+		(uuid "8bbf5a5c-6166-40b1-872d-ff55cceb374b")
+	)
+	(no_connect
+		(at 114.3 91.44)
+		(uuid "8d45174d-4007-4d9b-83b7-c00317dd9a60")
+	)
+	(no_connect
+		(at 165.1 71.12)
+		(uuid "8d7dfd74-92e5-4d69-b918-5b2104d7f884")
+	)
+	(no_connect
+		(at 165.1 60.96)
+		(uuid "8f2f9ac0-615d-4e2f-ad2c-505e5bc02aaa")
+	)
+	(no_connect
+		(at 165.1 86.36)
+		(uuid "9264f937-142a-458b-a8fc-941ecd58475b")
+	)
+	(no_connect
+		(at 114.3 119.38)
+		(uuid "a62b2ebc-8303-4a4d-9382-884881cf7e9b")
+	)
+	(no_connect
+		(at 165.1 114.3)
+		(uuid "a917f407-8360-4358-a019-f3fff39a7749")
+	)
+	(no_connect
+		(at 165.1 109.22)
+		(uuid "b9ee1617-7624-40af-a26b-0d7189ea3509")
+	)
+	(no_connect
+		(at 114.3 109.22)
+		(uuid "c5756521-1855-4dce-8c7c-13662c46b695")
+	)
+	(no_connect
+		(at 114.3 78.74)
+		(uuid "d2252f7e-62d2-41fa-9a14-d44801975c1f")
+	)
+	(no_connect
+		(at 165.1 106.68)
+		(uuid "d5a89017-e552-4f63-b857-dd7e37ec22ae")
+	)
+	(no_connect
+		(at 114.3 68.58)
+		(uuid "df8b9a58-58db-4d1e-b868-e57764b922aa")
+	)
+	(no_connect
+		(at 114.3 81.28)
+		(uuid "e05cfde4-cbcd-4d40-a1bb-98530c6f1ebb")
+	)
+	(no_connect
+		(at 165.1 63.5)
+		(uuid "e63e70ae-9615-46c2-b4a3-87a780930874")
+	)
+	(no_connect
+		(at 165.1 73.66)
+		(uuid "eb028e44-3a0e-4ee4-9a48-d6140e399e7b")
+	)
+	(no_connect
+		(at 165.1 96.52)
+		(uuid "ed8aa595-fd7d-4b14-922f-feba135ca9ad")
+	)
+	(no_connect
+		(at 114.3 101.6)
+		(uuid "f0648ecb-5d5f-4ccc-8382-3d5c0d98ea9b")
+	)
+	(no_connect
+		(at 114.3 53.34)
+		(uuid "f37a2aeb-b517-44da-9c11-77b8ec16daf4")
+	)
+	(no_connect
+		(at 165.1 68.58)
+		(uuid "f834b673-e328-43a5-9565-5a73b6b38593")
+	)
+	(no_connect
+		(at 165.1 91.44)
+		(uuid "faa2e86f-2b87-44f7-82d5-4bdeb8af8d08")
+	)
+	(no_connect
+		(at 114.3 55.88)
+		(uuid "ffcaeeba-d066-4d01-9662-8bb7bbbe0a66")
+	)
 	(wire
 		(pts
 			(xy 212.09 81.28) (xy 212.09 90.17)
@@ -2235,8 +2407,19 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor, US symbol, 1/4 W, 5% Tol"
 			(at 184.15 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 184.15 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2304,7 +2487,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
 			(at 194.31 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -2316,6 +2499,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 194.31 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3F-1000"
 			(at 194.31 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2551,8 +2745,19 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor, US symbol, 1/4 W, 5% Tol"
 			(at 184.15 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 184.15 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2631,7 +2836,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, Generic 3mm, Red"
 			(at 199.39 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2643,6 +2848,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 199.39 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 199.39 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2722,7 +2938,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, , Generic 3mm, Blue"
 			(at 199.39 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2734,6 +2950,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 199.39 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 199.39 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2781,7 +3008,7 @@
 				)
 			)
 		)
-		(property "Value" "Arduino_Uno_R4_WiFi_Shield"
+		(property "Value" "Arduino_Uno_R4_WiFi"
 			(at 139.7 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2813,7 +3040,18 @@
 				)
 			)
 		)
-		(property "Description" "Shield for Arduino Uno R4 WiFi"
+		(property "Description" "Arduino Uno R4 WiFi"
+			(at 139.7 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ABX00087"
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
