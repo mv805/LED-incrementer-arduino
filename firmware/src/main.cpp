@@ -23,8 +23,8 @@ unsigned const int FLASH_INCREASE_INCREMENT = 25;
 
 // ---- Pin assignments ----
 // These are the physical Arduino pins used by the circuit.
-const int MAIN_LED = 13;          // Built-in LED pin or external LED pin
-const int INC_INTERVAL_BTTN = 2;   // Button input, active LOW with INPUT_PULLUP
+const int BLINKER_LED = 13;          // Built-in LED pin or external LED pin
+const int INCREMENT_BUTTON = 2;   // Button input, active LOW with INPUT_PULLUP
 const int STATUS_LED = 4;          // Extra LED that shows when the button is pressed
 
 // ---- Display helper ----
@@ -45,8 +45,8 @@ void showInterval(unsigned long value) {
 // Runs once when the board powers up or resets.
 void setup() {
   // Configure pins:
-  pinMode(MAIN_LED, OUTPUT);         // Main flash LED
-  pinMode(INC_INTERVAL_BTTN, INPUT_PULLUP); // Button uses internal pull-up resistor
+  pinMode(BLINKER_LED, OUTPUT);         // Main flash LED
+  pinMode(INCREMENT_BUTTON, INPUT_PULLUP); // Button uses internal pull-up resistor
   pinMode(STATUS_LED, OUTPUT);       // Status LED for press indication
 
   // Initialize the onboard LED matrix and show the starting interval.
@@ -62,7 +62,7 @@ void setup() {
 void loop() {
   // Read the current button state.
   // With INPUT_PULLUP, pressed = LOW and released = HIGH.
-  bool buttonState = digitalRead(INC_INTERVAL_BTTN);
+  bool buttonState = digitalRead(INCREMENT_BUTTON);
 
   // Detect a press edge: HIGH -> LOW.
   // This means the button was just pressed, not held down.
@@ -70,7 +70,7 @@ void loop() {
     delay(10); // Small debounce delay to ignore switch bounce
 
     // Re-check after a tiny delay to confirm the button is still actually pressed.
-    if (digitalRead(INC_INTERVAL_BTTN) == LOW) {
+    if (digitalRead(INCREMENT_BUTTON) == LOW) {
       // Reduce the flash interval by a small increment.
       // This makes the LED blink faster.
       if (flashInterval >= (MIN_FLASH_INTERVAL + FLASH_INCREASE_INCREMENT)) {
@@ -103,6 +103,6 @@ void loop() {
   if (now - lastToggle >= flashInterval) {
     lastToggle = now;      // Save the current time so the next toggle is based on this moment
     ledState = !ledState;  // Flip LED state
-    digitalWrite(MAIN_LED, ledState);
+    digitalWrite(BLINKER_LED, ledState);
   }
 }
