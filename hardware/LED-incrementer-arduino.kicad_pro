@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "A"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -429,7 +429,7 @@
         "uuid": "bdea5ef7-4e01-4f29-aa87-c20091d7064a"
       }
     ],
-    "used_designators": "A1,SW1-2",
+    "used_designators": "A1,SW1-2,D1-2,#PWR1-3,R1-2",
     "variants": []
   },
   "sheets": [
@@ -438,7 +438,12 @@
       "Root"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "DESCRIPTION": "LED INCREMENTER ARDUINO",
+    "ENGINEER": "MATT VILLA",
+    "PART_NUMBER": "10029482-3",
+    "REVIEWER": "SELF"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
