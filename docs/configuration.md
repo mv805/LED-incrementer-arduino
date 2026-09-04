@@ -9,7 +9,7 @@ This document is the master configuration record for the LED Incrementer Arduino
 | Part number | 10029482-3 |
 | Description | LED INCREMENTER ARDUINO ASSY |
 | Component type | Mechatronic component |
-| Current release state | In work |
+| Current release state | Released |
 
 ## Design Configuration
 
